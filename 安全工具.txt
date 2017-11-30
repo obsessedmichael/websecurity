@@ -1,0 +1,9 @@
+AppScan
+http://blog.51cto.com/zhouanya/1388681 
+http://blog.163.com/billson_li/blog/static/258540026201612543912364/
+
+burpsuite
+http://www.freebuf.com/articles/web/100377.html
+
+Pangolin（中文译名为穿山甲）一款帮助渗透测试人员进行Sql注入测试的安全工具
+http://www.exehack.net/3232.html
