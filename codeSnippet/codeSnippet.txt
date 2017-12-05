@@ -1,0 +1,9 @@
+1\	//根据json字符串转换为对象
+	public Object getByRelationCode(String reidsKey,Class<?> c){
+			String jsonStr = redisManager.getStringRedisTemplate().opsForValue().get(reidsKey);
+			JSONObject jsonObject = new JSONObject().fromObject(jsonStr);
+			return JSONObject.toBean(jsonObject,c);
+		}
+	
+	//groovy中调用
+	DrivenHomeVo drivenHomeVo = (DrivenHomeVo)getByRelationCode("redisKey",DrivenHomeVo.class)
